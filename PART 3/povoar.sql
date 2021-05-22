@@ -86,7 +86,7 @@ INSERT INTO Exposicao VALUES(
     1,
     'Coleção Serralves',
     'A Coleção de Serralves integra atualmente para cima de 4300 obras, das quais mais de 1700 são propriedade da Fundação de Serralves e as restantes 2600, provenientes de várias coleções privadas e públicas, foram objeto de depósito de longo prazo. De entre os acervos depositados em Serralves que constituíram pontos de referência para o desenvolvimento da Coleção de Serralves contam-se a coleção da Secretaria de Estado da Cultura e a coleção da Fundação Luso-Americana para o Desenvolvimento (FLAD). A Coleção de Serralves inclui ainda cerca de 5000 livros e edições de artistas.',
-    '06-06-1999',
+    '1999-06-06',
     NULL,
     245684123
 );
@@ -95,8 +95,26 @@ INSERT INTO Exposicao VALUES(
     2,
     'Filmografia de Manoel de Oliveira',
     'Exposição permanente das obras cinematográficas de Manoel de Oliveira.',
-    '24-06-2019',
+    '2019-06-24',
     NULL,
+    245684123
+);
+
+INSERT INTO Exposicao VALUES(
+    3,
+    'Exposição Temporaria 3',
+    'Exposição temporaria para testar queries - Ainda nao acabou',
+    '2019-06-24',
+    '2023-05-22',
+    245684123
+);
+
+INSERT INTO Exposicao VALUES(
+    4,
+    'Exposição Temporaria 4',
+    'Exposição temporaria para testar queries - Já acabou',
+    '2019-06-12',
+    '2019-12-12',
     245684123
 );
 
