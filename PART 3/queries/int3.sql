@@ -1,6 +1,7 @@
-/*
-Interrogação à base de dados que mostra o nome, o NIF respetivo e o salário em euros/mes dos trabalhadores de Serralves por ordem decrescente.
-*/
+/* ================================================================================================
+ * Qual o salário dos trabalhadores de Serralves?
+ * ================================================================================================
+ */
 
 .mode columns
 .headers on

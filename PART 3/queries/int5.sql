@@ -1,6 +1,7 @@
-/*
-Interrogação à base de dados que mostra todos os turnos, com a hora de entrade e a hora de saída, e quantos trablhadores estão alocados a cada turno.
-*/
+/* ================================================================================================
+ * Quantos trabalhadores fazem cada turno em Serralves?
+ * ================================================================================================
+ */
 
 .mode columns
 .headers on
