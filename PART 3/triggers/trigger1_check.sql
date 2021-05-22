@@ -11,7 +11,7 @@ INSERT INTO TipoBilhete VALUES('Bilhete Geral',20,3, 204 );
 INSERT INTO TipoBilhete VALUES('Bilhete Geral',20,4, 204 );
 INSERT INTO Fatura VALUES( 202 ,0,123687642);
 INSERT INTO Compra VALUES( 202 ,NULL, 204 );
-INSERT INTO Bilhete VALUES( 205 ,NULL);
+INSERT INTO Bilhete VALUES( 205 ,0.5);
 INSERT INTO TipoBilhete VALUES('Bilhete Geral',20,1, 205 );
 INSERT INTO TipoBilhete VALUES('Bilhete Geral',20,2, 205 );
 INSERT INTO TipoBilhete VALUES('Bilhete Geral',20,3, 205 );
