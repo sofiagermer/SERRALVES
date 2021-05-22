@@ -5,9 +5,9 @@ Interrogação à base de dados que mostra o nome do artista e o título das obr
 .mode columns
 .headers on
 
-SELECT Artista.Nome, Obra.Nome, Exposicao.Nome
-From Obra
-INNER JOIN ObraArtista ON Obra.IDObra = ObraArtista.IDObra
-INNER JOIN Artista ON ObraArtista.IDArtista = Artista.IDArtista
-INNER JOIN Exposicao ON Exposicao.IDExposicao = 1
-Where Obra.IDExposicao = 1;
+SELECT count(*) "Numero de Obras em Exposicao", Artista.Nome
+From Artista
+INNER JOIN ObraArtista ON Artista.IDArtista = ObraArtista.IDArtista
+INNER JOIN Obra ON Obra.IDObra = ObraArtista.IDObra
+GROUP BY Artista.Nome
+ORDER BR count(*) DESC;
