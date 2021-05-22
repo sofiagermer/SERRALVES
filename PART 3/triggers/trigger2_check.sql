@@ -32,6 +32,14 @@ WHERE (NIF=245684123);
 
 .print ''
 .print 'A mudança refletiu-se proporcionalmente no salário que aumentou para 12000'
+.print 'Para concluir voltamos a mudar o horário para o original o que deve resultar numa redução do salário.'
 .print ''
 
+UPDATE HorarioStaff 
+SET IDHorario = 1
+WHERE (NIF=245684123);
 
+SELECT Salario,HoraEntrada,HoraSaida
+FROM Staff JOIN (SELECT NIF,HoraEntrada,HoraSaida 
+FROM HorarioStaff JOIN Horario USING(IDHorario)) USING(NIF)
+WHERE (NIF=245684123);
