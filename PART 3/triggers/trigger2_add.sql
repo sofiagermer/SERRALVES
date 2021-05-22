@@ -8,7 +8,7 @@ CREATE TRIGGER atualizarSalario
 AFTER UPDATE on HorarioStaff
 WHEN(
 (SELECT (HoraSaida-HoraEntrada) FROM Horario
-WHERE IDHorario=OLD.IDHorario)<(SELECT (HoraSaida-HoraEntrada) FROM Horario
+WHERE IDHorario=OLD.IDHorario)!=(SELECT (HoraSaida-HoraEntrada) FROM Horario
 WHERE IDHorario=NEW.IDHorario)
 )
 BEGIN
