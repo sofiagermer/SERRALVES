@@ -4,7 +4,7 @@
 
 PRAGMA foreign_keys = ON;
 
-CREATE TRIGGER IF NOT EXISTS updateFinalPrice
+CREATE TRIGGER IF NOT EXISTS atualizarPreco
 AFTER INSERT ON Compra
 FOR EACH ROW
 BEGIN
