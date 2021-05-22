@@ -1,7 +1,7 @@
-/*
-Interrogação à base de dados que mostra o nome do artista e o título das obras que estão expostas na exposição premanente de Serralves.
-*/
-
+/* ================================================================================================
+ * Que obras estão expostas na coleção permanente (Nome do artista, nome da obra, nome da exposição?
+ * ================================================================================================
+ */
 .mode columns
 .headers on
 

@@ -1,8 +1,10 @@
+/* ================================================================================================
+ * Número de clientes normais e número clientes "Amigo", discriminados por "tipo de Amigo"
+ * ================================================================================================
+ */
 .mode columns
 .headers on
 .nullvalue NULL
-
--- Número de clientes normais e numero clientes "Amigo", discriminados por "tipo de Amigo"
 
 SELECT (SELECT COUNT(*) 
 FROM (SELECT NIF FROM Pessoa
