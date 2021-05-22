@@ -38,4 +38,7 @@ INSERT INTO Seguranca VALUES (101029353,1);
 
 .print 'Ao inserir na tabela Seguranca um NIF que já está presente na tabela Vigilante, aparece um erro que um membro do staff que já é Vigilante não pode ser um Segurança em simultaneo.'
 
+SELECT *
+FROM Seguranca;
+
 
