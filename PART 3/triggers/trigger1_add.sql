@@ -4,11 +4,11 @@
 
 PRAGMA foreign_keys = ON;
 
-CREATE TRIGGER IF NOT EXISTS updateFinalPrice
+CREATE TRIGGER IF NOT EXISTS atualizarPreco
 AFTER INSERT ON Compra
 FOR EACH ROW
 BEGIN
     UPDATE Fatura
-    SET Valor = Valor + (SELECT Preco FROM TipoBilhete WHERE IDBilhete=NEW.IDBilhete)
+    SET Valor = Valor + (SELECT Preco FROM TipoBilhete WHERE IDBilhete=NEW.IDBilhete)*(SELECT IFNULL(Desconto, 1) FROM Bilhete WHERE IDBilhete=NEW.IDBilhete)
     WHERE (IDFatura = NEW.IDFatura);
 END;

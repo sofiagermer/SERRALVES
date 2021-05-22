@@ -4,4 +4,4 @@
 
 PRAGMA foreign_keys = ON;
 
-DROP TRIGGER IF EXISTS updateFinalPrice;
+DROP TRIGGER IF EXISTS atualizarPreco;
