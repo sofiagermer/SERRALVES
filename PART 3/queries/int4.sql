@@ -1,5 +1,5 @@
 /* ================================================================================================
- * Que obras estão expostas na coleção permanente (Nome do artista, nome da obra, nome da exposição?
+ * Nome do artista e titulo das obras
  * ================================================================================================
  */
 .mode columns

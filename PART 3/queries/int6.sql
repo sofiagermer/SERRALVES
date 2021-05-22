@@ -6,8 +6,10 @@
 .headers on
 .nullvalue NULL 
 
-
-SELECT NIF, IDHorario, (sum(abs(strftime('%s', HoraSaida) - strftime('%s', HoraEntrada)))) / 3600 as HorasSemanais
+SELECT NIF, Nome, (HoraSaida- HoraEntrada)* 5 as HorasSemanais
 FROM HorarioStaff 
-JOIN Horario USING(IDHorario)
+JOIN Horario 
+    ON HorarioStaff.IDHorario = Horario.IDHorario
+JOIN Staff USING (NIF)
+    JOIN Pessoa USING (NIF)
 ORDER BY HorasSemanais DESC;
