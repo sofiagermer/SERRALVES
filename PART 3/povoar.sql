@@ -104,8 +104,8 @@ INSERT INTO Exposicao VALUES(
 
 /* Horario(IDHorario,HoraEntrada,HoraSaida) */
 
-INSERT INTO Horario VALUES (1,'09:00','17:00');
-INSERT INTO Horario VALUES (2,'10:00','18:00');
+INSERT INTO Horario VALUES (1,'11:00','17:00');
+INSERT INTO Horario VALUES (2,'09:00','18:00');
 INSERT INTO Horario VALUES (3,'14:00','22:00');
 INSERT INTO Horario VALUES (4,'08:00','16:00');
 
