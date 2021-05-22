@@ -5,6 +5,7 @@
 
 .mode columns
 .headers on
+.nullvalue NULL 
 
 SELECT Pessoa.Nome, Pessoa.NIF, Staff.Salario "Salario (euros/mes)"
 FROM Pessoa

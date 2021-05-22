@@ -4,6 +4,7 @@
  */
 .mode columns
 .headers on
+.nullvalue NULL 
 
 SELECT count(*) "Numero de Obras em Exposicao", Artista.Nome
 From Artista

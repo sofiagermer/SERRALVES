@@ -4,6 +4,7 @@
  */
 .mode columns
 .headers on
+.nullvalue NULL 
 
 SELECT IDEspaco,Espaco.Nome, count(*) AS NumBilhetes
 FROM Espaco JOIN TipoBilhete USING(IDEspaco)

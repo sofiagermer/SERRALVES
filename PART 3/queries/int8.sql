@@ -4,6 +4,7 @@
  */
 .mode columns
 .headers on
+.nullvalue NULL 
 
 SELECT Exposicao.Nome,Pessoa.Nome AS Curador FROM
 Exposicao JOIN Pessoa USING(NIF)
