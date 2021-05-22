@@ -1,9 +1,10 @@
 /* ================================================================================================
- * Que obras estão expostas na coleção permanente (Nome do artista, nome da obra, nome da exposição?
+ * Nome do artista e titulo das obras
  * ================================================================================================
  */
 .mode columns
 .headers on
+.nullvalue NULL 
 
 SELECT count(*) "Numero de Obras em Exposicao", Artista.Nome
 From Artista

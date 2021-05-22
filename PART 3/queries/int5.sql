@@ -5,6 +5,7 @@
 
 .mode columns
 .headers on
+.nullvalue NULL 
 
 SELECT Horario.HoraEntrada, Horario.HoraSaida, count(*) "Numero de trabalhadores neste horario"
 FROM HorarioStaff
