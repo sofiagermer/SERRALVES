@@ -24,4 +24,15 @@ END;
 Verifica se não estamos a pôr como Segurança, um membro do staff que já é Vigilante.
 */
 
+CREATE TRIGGER IF NOT EXISTS insertSegurancaNaoVigilante
+BEFORE INSERT ON Seguranca
+BEGIN
+
+SELECT CASE
+WHEN EXISTS (SELECT * FROM Vigilante WHERE NIF = NEW.NIF)
+THEN RAISE(ABORT, 'Um segurança não pode ser um vigilante')
+END;
+
+END;
+
 
