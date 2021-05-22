@@ -7,7 +7,9 @@
 .headers on
 .nullvalue NULL 
 
-SELECT Pessoa.Nome, Pessoa.NIF, Staff.Salario "Salario (euros/mes)"
+SELECT Pessoa.Nome, Pessoa.NIF, Staff.Salario "Salario (euros/mes)", (HoraSaida- HoraEntrada)* 5 AS HorasSemanais
 FROM Pessoa
-INNER JOIN Staff USING(NIF)
+JOIN HorarioStaff USING (NIF)
+JOIN Horario ON HorarioStaff.IDHorario = Horario.IDHorario
+JOIN Staff USING(NIF)
 ORDER BY Staff.Salario DESC;

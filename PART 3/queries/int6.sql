@@ -11,5 +11,6 @@ FROM HorarioStaff
 JOIN Horario 
     ON HorarioStaff.IDHorario = Horario.IDHorario
 JOIN Staff USING (NIF)
-    JOIN Pessoa USING (NIF)
-ORDER BY HorasSemanais DESC;
+    JOIN Pessoa USING (NIF) 
+
+/*ORDER BY HorasSemanais DESC;*/
