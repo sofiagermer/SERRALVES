@@ -1,3 +1,7 @@
+/* ================================================================================================
+ * Se o horário de um trabalhador for aumentado, o seu salário também é aumentado proporcionalmente.
+ * ================================================================================================
+ */
 .mode columns
 .header on
 .nullvalue NULL

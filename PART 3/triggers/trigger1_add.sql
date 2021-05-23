@@ -1,3 +1,7 @@
+/* ================================================================================================
+ * Ao adicionar um bilhete a uma compra, alterar o valor final da Fatura usando o valor do desconto
+ * ================================================================================================
+ */
 .mode columns
 .header on
 .nullvalue NULL
