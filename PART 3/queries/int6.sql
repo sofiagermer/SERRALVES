@@ -1,5 +1,5 @@
 /* ================================================================================================
- * Número de horas que cada funcionário trabalha por semana.
+ * Numero de obras em cada exposição discriminadas por tipo
  * ================================================================================================
  */
 .mode columns
