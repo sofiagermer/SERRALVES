@@ -133,8 +133,8 @@ INSERT INTO Horario VALUES (4,'08:00','16:00');
 
 INSERT INTO ExposicaoEspaco VALUES(1,1);
 INSERT INTO ExposicaoEspaco VALUES(2,3);
-
-
+INSERT INTO ExposicaoEspaco VALUES(3,1);
+INSERT INTO ExposicaoEspaco VALUES(4,2);
 
 /* HorarioStaff(IDHorario,NIF) */
 
