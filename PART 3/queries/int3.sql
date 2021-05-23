@@ -1,5 +1,5 @@
 /* ================================================================================================
- * Qual o salário dos trabalhadores de Serralves?
+ * Qual o salário dos trabalhadores de Serralves? E quantas horas semanais é que trabalham?
  * ================================================================================================
  */
 
