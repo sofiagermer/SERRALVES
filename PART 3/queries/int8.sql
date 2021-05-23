@@ -5,8 +5,16 @@
 .mode columns
 .headers on
 .nullvalue NULL 
+.width 35 30 20
 
-SELECT Exposicao.Nome,Pessoa.Nome AS Curador FROM
-Exposicao JOIN Pessoa USING(NIF)
+
+SELECT Exposicao.Nome,Espaco.Nome AS Localização, Pessoa.Nome AS Curador 
+FROM ExposicaoEspaco
+JOIN Exposicao 
+    USING (IDExposicao)
+    JOIN Pessoa 
+        USING(NIF)
+JOIN Espaco 
+    USING (IDEspaco)
 GROUP BY Exposicao.Nome
-HAVING (Fim>date('now') OR Fim IS NULL)
+HAVING (Exposicao.Fim> date('now') OR Fim IS NULL)
