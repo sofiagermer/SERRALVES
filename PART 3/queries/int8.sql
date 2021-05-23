@@ -1,5 +1,6 @@
 /* ================================================================================================
- * Quais as exposições que estão a decorrer atualmente bem como o nome do Curador dessa exposição
+ * Quais as exposições que estão a decorrer atualmente bem como o espaço onde estão a decorrer
+    e o nome do Curador dessa exposição
  * ================================================================================================
  */
 .mode columns
@@ -17,4 +18,4 @@ JOIN Exposicao
 JOIN Espaco 
     USING (IDEspaco)
 GROUP BY Exposicao.Nome
-HAVING (Exposicao.Fim> date('now') OR Fim IS NULL)
+HAVING (Exposicao.Fim> date('now') OR Exposicao.Fim IS NULL)

@@ -6,8 +6,9 @@
 .mode columns
 .headers on
 .nullvalue NULL 
+.width 20 10 10 15
 
-SELECT Pessoa.Nome, Pessoa.NIF, Staff.Salario "Salario (euros/mes)", (HoraSaida- HoraEntrada)* 5 AS HorasSemanais
+SELECT Pessoa.Nome, Pessoa.NIF, Staff.Salario AS Salário, (HoraSaida- HoraEntrada)* 5 AS HorasSemanais
 FROM Pessoa
 JOIN HorarioStaff 
     USING (NIF)
