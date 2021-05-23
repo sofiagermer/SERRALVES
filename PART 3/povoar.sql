@@ -8,24 +8,24 @@ INSERT INTO Pessoa VALUES( 212222333,'João Teixeira','Rua Maria Gomes 78 2ºD',
 INSERT INTO Pessoa VALUES( 286783411,'Maria Moutinho','Rua do Senhor 228 1ºE','4310-122','1951-07-19','933341234','mariamoutinho@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 125875123,'Marcelo Leite','Avenida Xanana Gusmão 234 4ºD','4460-641','1955-01-22','945321652','marceloleite@serralves.pt' ); /*Balcão/Vendedor*/
 INSERT INTO Pessoa VALUES( 256132415,'Manuel Ferraz','Rua de Recarei 781 2ºE','4460-221','1979-11-06','954647489','manuelferraz1969@gmail.com' ); /*Vigilante*/
-INSERT INTO Pessoa VALUES( 123687642,'Mónica Silva','Rua Gomes Freire 455 6ºE','4120-323','1984-02-01','987635464','monicasilva@serralves.pt' ); /*Balcão/Vendedora*/
+INSERT INTO Pessoa VALUES( 123687642,'Mónica Silva','Rua Gomes Freire 455 6ºE','4120-323','2004-02-01','987635464','monicasilva@serralves.pt' ); /*Balcão/Vendedora*/
 INSERT INTO Pessoa VALUES( 265732173,'Rui Oliveira','Rua Nossa Senhora de Fátima 111','4100-121','1962-07-21','911423434','ruioliveira11@gmail.com' ); /*Segurança*/
-INSERT INTO Pessoa VALUES( 121542324,'José Silveira','Rua Professor Texeira 444 1ºD','4340-111','1994-02-31','933444489','josesilveira94@gmail.com' ); /*Segurança*/
+INSERT INTO Pessoa VALUES( 121542324,'José Silveira','Rua Professor Texeira 444 1ºD','4340-111','2002-02-31','933444489','josesilveira94@gmail.com' ); /*Segurança*/
 INSERT INTO Pessoa VALUES( 264545173,'Jorge Oliveira','Rua 29','4170-121','1977-09-22','913455364','jorgeoliveira@gmail.com' ); /*Segurança*/
 INSERT INTO Pessoa VALUES( 233335324,'Miguel Matias','Rua Heitor Horat 42','4311-122','1969-12-22','914422489','miguelmatias22@gmail.com' ); /*Segurança*/
 INSERT INTO Pessoa VALUES( 278565321,'Ana Ribeiro','Rua da Padeira 334 1ºC','4130-220','1972-01-19','923342349','anarib8988@outlook.com.pt' ); /*Vigilante*/
 INSERT INTO Pessoa VALUES( 236545335,'Filipa Silva','Rua Manuela Gomes 78 2ºD','4260-128','1967-08-08','912333449','filipasilva13@hotmail.com' ); /*Vigilante*/
 
-INSERT INTO Pessoa VALUES( 576309283,'Eduarda Monteiro','Rua das Pombas 98','4427-814','1970-05-25','912929292','eduardamonteiro@gmail.com' );  /*Vigilante*/
+INSERT INTO Pessoa VALUES( 576309283,'Eduarda Monteiro','Rua das Pombas 98','4427-814','2001-05-25','912929292','eduardamonteiro@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 101029353,'Rogério Madeira','Avenida dos Caquinhos 34 4ºE','4800-023','1959-07-10','918282823','rogeriomadeira@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 643572859,'Gustavo Santos','Rua Abade Tagilde 200','4830-145','1959-10-19','934545637','gustavosantos@gmail.com' );  /*Vigilante*/
-INSERT INTO Pessoa VALUES( 202020303,'Márcio Pereira','Rua do Monte 407 1ºE','4502-101','1980-03-18','933987881','marciopereira@gmail.com' );  /*Vigilante*/
+INSERT INTO Pessoa VALUES( 202020303,'Márcio Pereira','Rua do Monte 407 1ºE','4502-101','2006-03-18','933987881','marciopereira@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 204060809,'José Almeida','Travessa da Areosa 77 3ºD','4800-123','1990-01-01','967878976','josealmeida@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 398563478,'Jorge Gomes','Rua do Almeida 24','4800-230','1987-11-21','910234957','jorgegomes@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 204060848,'Felizberta Macedo','Rua Dr. José Afonso 180','4290-398','1974-04-25','914352968','felizbertamacedo@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 879367829,'Rodrigo Sá','Avenida S. Gonçalo 980 8ºD','4820-098','1978-12-25','969193919','rodrigosa@gmail.com' );  /*Vigilante*/
 INSERT INTO Pessoa VALUES( 252020492,'Lúcia Ribeiro','Travessa do Fundo 420','4850-783','1986-05-28','965230425','luciaribeiro@gmail.com' );  /*Vigilante*/
-INSERT INTO Pessoa VALUES( 144444420,'Tiago Pacheco','Rua de Silvares 1454 2ºE','4450-048','1991-02-11','913452637','tiagopacheco@gmail.com' );  /*Vigilante*/
+INSERT INTO Pessoa VALUES( 144444420,'Tiago Pacheco','Rua de Silvares 1454 2ºE','4450-048','2003-02-11','913452637','tiagopacheco@gmail.com' );  /*Vigilante*/
 /*CLIENTES NORMAIS*/
 INSERT INTO Pessoa VALUES( 223445643,'Sofia Germer','Rua General Monteiro 233','5260-139','1994-03-23','914234649','sofiagermer@hotmail.com' );
 INSERT INTO Pessoa VALUES( 274081181,'Cristina Vilariça Salazar','Rua Diogo Botelho 1327','4169-005','1953-08-10','924871454','crisvila@hotmail.com' );
@@ -33,12 +33,12 @@ INSERT INTO Pessoa VALUES( 284945786,'Raul Eiró Keil','Rua Câmara Pestana 348'
 INSERT INTO Pessoa VALUES( 276162592,'Eusébio Fernandes Rolim','Rua do Caneiro 23','4415-678','1955-03-11','923515760','eusebiorolim@hotmail.com' );
 INSERT INTO Pessoa VALUES( 207540028,'Rahyssa Mota Maia','Rua Amelia Cardoso 344','4001-129','1989-01-23','987375510','rahyssamaia@hotmail.com' );
 INSERT INTO Pessoa VALUES( 200906945,'Carlos Severo Meira','Rua Maria Teixeira 213 6ºD','4000-789','1962-04-05','933452440','carlossevero@hotmail.com' );
-INSERT INTO Pessoa VALUES( 263655958,'Emanuelle Simas Fialho','Rua da Escola 98 1ºD','4260-654','1964-11-03','935897463','emanuellefialho@hotmail.com' );
+INSERT INTO Pessoa VALUES( 263655958,'Emanuelle Simas Fialho','Rua da Escola 98 1ºD','4260-654','1999-11-03','935897463','emanuellefialho@hotmail.com' );
 INSERT INTO Pessoa VALUES( 247305416,'Assunção Salgueiro Mansilha','Rua Manuel Sampaio 2223','4440-155','1976-06-08','924961512','assuncaosalgueiro@hotmail.com' );
 INSERT INTO Pessoa VALUES( 236950000,'Nicolas Semedo Quintas','Rua da Praia Velha 990','4960-139','1974-05-11','919485729','nicolasquintas@hotmail.com' );
 INSERT INTO Pessoa VALUES( 236233277,'Marcos Valido Diegues','Rua da Placa de Madeira 222 3ºE','3215-139','1974-02-19','913709951','marcosdiegues@hotmail.com' );
 /*CLIENTES AMIGOS*/
-INSERT INTO Pessoa VALUES( 217936163,'Aryana Abranches Póvoas','Rua Engenheiro Lopes 45','5777-159','1993-11-16','968959062','aryanapovoas@hotmail.com' );
+INSERT INTO Pessoa VALUES( 217936163,'Aryana Abranches Póvoas','Rua Engenheiro Lopes 45','5777-159','2005-11-16','968959062','aryanapovoas@hotmail.com' );
 INSERT INTO Pessoa VALUES( 281609824,'Ema Milhães Lameira','Rua da Saude 2323 1ºD','3747-122','1950-04-16','929275910','emalameira@hotmail.com' );
 INSERT INTO Pessoa VALUES( 277026828,'Amelia Furtado Barbosa','Rua Quintal Bonito 13','4800-115','1970-03-01','936472681','ameliafurtado@hotmail.com' );
 INSERT INTO Pessoa VALUES( 275288040,'Vitor Bilhalva Beiriz','Rua Florbela Espanca 123 2ºE','4770-166','1965-04-07','916512519','vitorbilhalva@hotmail.com' );
